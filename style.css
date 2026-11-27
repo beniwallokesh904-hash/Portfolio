@@ -462,7 +462,8 @@ i>p{
 .card:hover .tl{
     transform: scale(1.2) rotate(8deg);
 }
-.card-top, .card-bottom{
+.card-top{
+    gap: 30px;
     color: white;
     display: flex;
 }
