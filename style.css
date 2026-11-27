@@ -450,6 +450,10 @@ i>p{
     transition: .35s var(--ease);
     position: relative;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .card:hover{
     transform: translate(0,-5px);
@@ -466,11 +470,7 @@ i>p{
     height: 62%;
     align-items: center;
 }
-.card-bottom{
-    height: 38%;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 .tl{
     width: 22%;
     display: flex;
