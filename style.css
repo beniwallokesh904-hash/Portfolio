@@ -465,12 +465,12 @@ i>p{
 .card-top{
     gap: 30px;
     color: white;
-    display: flex;
-}
-.card-top{
     height: 62%;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
+
 
 .tl{
     width: 22%;
